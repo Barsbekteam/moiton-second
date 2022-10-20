@@ -1,0 +1,266 @@
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+    .navbar-navigation a{
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .internet-subtitle{
+        margin-right: 40px;
+    }
+    .internet-lines{
+        width: 50%;
+    }
+    .internet-line{
+        width: 100%;
+    }
+    .internet-line2{
+        width: 100%;
+    }
+    .internet-line3{
+        width: 100%;
+    }
+    .internet-line4{
+        width: 100%;
+    }
+    .block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block-content{
+        margin: 20px;
+    }
+    .name{
+        width: 45%;
+    }
+    .question{
+        width: 94%;
+        height: 80px;
+    }
+    .request-block button{
+        width: 80%;
+    }
+}
+@media (max-width: 1024px) {
+    .navbar-navigation a{
+        font-size: 13px;
+        padding: 0 3px;
+    }
+    .navbar-navigation button{
+        width: 130px;
+        height: 42px;
+    }
+    .implementation{
+        height: 420px;
+    }
+    .request p{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-navigation a{
+        font-size: 12px;
+    }
+    .navbar-navigation button{
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-navigation{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .internet-title{
+        font-size: 20px;
+    }
+    .internet{
+        flex-direction: column;
+    }
+    .internet-lines{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .work{
+        justify-content: center;
+    }
+    .request{
+        flex-direction: column;
+        align-items: center;
+    }
+    .request-block{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .menu{
+        display: none;
+    }
+    .footer-service{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .suggest-block p{
+        font-size: 12px;
+    }
+    .suggest-btn button{
+        width: 200px;
+    }
+    .suggest-btn h2{
+        font-size: 16px;
+    }
+    .block-laboratory{
+        width: 93%;
+    }
+    .block-laboratory-head{
+        width: 100%;
+        right: -0.1px;
+    }
+    .process-liner{
+        width: 80%;
+    }
+    .process-line{
+        width: 80%;
+    }
+    .process-right-block{
+        height: 507px;
+    }
+    .process-in-block p{
+        font-size: 13px;
+        margin-right: 5px;
+    }
+    .implementation{
+        height: 465px;
+    }
+}
+@media (max-width: 451px) {
+    .hero h1{
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .hero button {
+        height: 40px;
+        width: 200px;
+    }
+    .internet-title{
+        font-size: 15px;
+    }
+    .suggest-block{
+        height: 410px;
+    }
+    .suggest-btn{
+        flex-direction: column;
+    }
+    .suggest-btn button{
+        margin-bottom: 15px;
+    }
+    .process-title{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .testing-rec{
+        width: 100%;
+    }
+    .test-line{
+        width: 94%;
+    }
+
+    .implementation{
+        height: 500px;
+    }
+    .testing-rectangle div{
+        width: 9%;
+    }
+    .work-block{
+        width: 90%;
+        height: 246px;
+    }
+    .work-block img{
+        width: 100%;
+    }
+    .main-title{
+        font-size: 16px;
+    }
+    .project h1{
+        font-size: 28px;
+    }
+    .project button{
+        font-size: 16px;
+        width: 200px;
+        height: 45px;
+    }
+}
+@media (max-width: 400px) {
+    .process-in-block h1{
+        font-size: 25px;
+    }
+    .process-left-block{
+        height: 500px;
+    }
+    .right-group-rectangle{
+        width: 92%;
+    }
+    .right-first-rec{
+        width: 60%;
+    }
+    .right-second-rec{
+        width: 83%;
+    }
+    .right-third-rec{
+        width: 74%;
+    }
+    .right-fourth-rec{
+        width: 285px;
+    }
+    .testing-rec{
+        width: 90%;
+    }
+    .test-line{
+        width: 87%;
+        left: 7px;
+    }
+    .work-block{
+        height: 217px;
+    }
+
+}
+@media (max-width: 380px) {
+    .internet p{
+        font-size: 12px;
+    }
+    .process-in-block p{
+        font-size: 12px;
+    }
+    .suggest-mini-blocks{
+        justify-content: center;
+    }
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 320px) {
+    .suggest-block {
+        height: 422px;
+    }
+    .process-left-block{
+        height: 523px;
+    }
+    .right-fourth-rec{
+        width: 222px;
+    }
+    .implementation{
+        height: 550px;
+    }
+    .process-line{
+        right: 22px;
+    }
+    .process-liner{
+        right: 22px;
+    }
+    .work-title{
+        font-size: 22px;
+    }
+}
+

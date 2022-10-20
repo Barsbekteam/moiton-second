@@ -1,0 +1,248 @@
+@media (width: 1440px) {
+    
+}
+@media (max-width: 1200px) {
+    .navbar-navigation a{
+        font-size: 14px;
+        padding: 0 8px;
+    }
+}
+@media  (max-width: 1024px) {
+    .navbar-navigation a{
+        font-size: 13px;
+        padding: 0 3px;
+    }
+    .navbar-navigation button{
+        width: 130px;
+        height: 42px;
+    }
+    .numbers p {
+        text-align: center;
+    }
+    .examination img{
+        width: 250px;
+    }
+    .examination-block p{
+        font-size: 15px;
+    }
+    .examination-block button{
+        width: 40%;
+    }
+    .choice-block{
+        margin: 0 10px;
+    }
+    .requests-block{
+        margin: 0 10px ;
+    }
+    .requests-block p{
+        font-size: 14px;
+    }
+    .request-block{
+        width: 50% ;
+        margin-left: 20px;
+    }
+    .name{
+        width: 45%;
+    }
+    .question{
+        width: 92%;
+    }
+    .request-block button{
+        width: 82%;
+    }
+    .request-block p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-navigation a{
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    .navbar-navigation button{
+        font-size: 12px;
+        width: 124px;
+        height: 37px;
+    }
+    .hero {
+        padding-top: 150px;
+    }
+    .hero h1{
+        font-size: 50px;
+    }
+    .hero button{
+        width: 250px;
+    }
+    .numbers{
+        text-align: center;
+    }
+    .examination-block button{
+        width: 220px;
+    }
+    .choice-block{
+        margin: 0 10px;
+    }
+    .choice-block-second button{
+        width: 100%;
+        font-size: 10px;
+    }
+    .requests-block{
+        margin: 0 10px;
+    }
+    .requests-block p{
+        font-size: 13px;
+    }
+    .name{
+        width: 45%;
+    }
+    .question{
+        width: 92%;
+    }
+    .request-block button{
+        width: 82%;
+    }
+    .request-block p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-navigation{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .number-block{
+        margin: 40px 10px;
+    }
+    .number-blocks{
+        margin: 40px 10px;
+    }
+    .examination img{
+        width: 200px;
+        margin-right: 20px;
+    }
+    .examination-block p{
+        font-size: 12px;
+    }
+    .examination-block button{
+        width: 40%;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .request{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .requests{
+        flex-direction: column;
+        align-items: center;
+    }
+    .requests-block{
+        margin-bottom: 20px;
+    }
+    .request p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .choice-block-first p{
+        margin-left: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .footer-service{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1{
+        font-size: 28px;
+    }
+    .hero button{
+        width: 155px;
+        font-size: 12px;
+        height: 35px;
+    }
+    .numbers{
+        flex-wrap: wrap;
+    }
+    .number-block{
+        width: 40%;
+    }
+    .examination{
+        flex-direction: column;
+        align-items: center;
+    }
+    .choice{
+        flex-wrap: wrap;
+    }
+    .choice-block{
+        margin-bottom: 20px;
+    }
+    .request-block{
+        width: 90%;
+    }
+    .name{
+        width: 45%;
+    }
+    .question{
+        width: 94%;
+        height: 80px;
+    }
+    .request-block button{
+        width: 80%;
+    }
+    .request p{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .project h1{
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width: 451px) {
+    .request p{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .main-title h1{
+        font-size: 27px;
+    }
+    .main-title p{
+        font-size: 12px;
+    }
+    .examination-block h1{
+        font-size: 30px;
+    }
+    .examination-block button{
+        width: 80%;
+    }
+    .project button {
+        font-size: 18px;
+        width: 225px;
+        height: 48px;
+    }
+
+}
+@media (max-width: 320px) {
+    .hero h1{
+        font-size: 21px;
+    }
+    .hero button{
+        width: 195px;
+    }
+    .requests-block{
+        width: 90%;
+    }
+    .requests-btn button {
+        font-size: 12px;
+        margin: 0 0 20px 9px;
+        width: 135px;
+    }
+}

@@ -1,0 +1,121 @@
+@media (max-width: 1200px) {
+    .navbar-navigation a {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .service{
+        justify-content: center;
+    }
+}
+@media (max-width: 1024px) {
+    .navbar-navigation a{
+        font-size: 13px;
+        padding: 0 3px;
+    }
+    .navbar-navigation button{
+        width: 130px;
+        height: 42px;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-navigation a{
+        font-size: 12px;
+    }
+    .navbar-navigation button{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-navigation {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+    .request{
+        flex-direction: column;
+        align-items: center;
+    }
+    .request-block{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .name{
+        width: 45%;
+    }
+    .question{
+        width: 94%;
+    }
+    .request-block button{
+        width: 80%;
+    }
+    .menu{
+        display: none;
+    }
+    .footer-service{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 451px) {
+    .hero h1{
+        font-size: 37px;
+    }
+    .hero button {
+        height: 41px;
+        width: 236px;
+    }
+    .service-block{
+        width: 90%;
+    }
+    .service-block-head{
+        width: 100%;
+    }
+    .service-block p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .service-btn button {
+        font-weight: 600;
+        font-size: 18px;
+        width: 70%;
+        height: 50px;
+    }
+    .main-title{
+        font-size: 16px;
+    }
+    .request p{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .project button {
+        font-size: 16px;
+        width: 167px;
+        height: 37px;
+    }
+    .project h1{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 400px) {
+
+}
+@media (max-width: 380px) {
+
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 320px) {
+    .service-block h1{
+        font-size: 19px;
+    }
+    .service-block-title h2{
+        font-size: 14px;
+    }
+}

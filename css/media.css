@@ -1,0 +1,462 @@
+@media  (max-width: 1440px){
+    .container{
+        width: 90%;
+    }
+    .team-block{
+        width: 400px !important;
+    }
+    .team-block img{
+        width: 100%;
+    }
+
+}
+@media  (max-width: 1200px){
+    .navbar-navigation a{
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .hero-title h1{
+        font-size: 110px;
+    }
+    .block-content{
+        margin: 0 10px;
+    }
+    .work{
+        justify-content:space-evenly;
+    }
+    .service{
+        justify-content: space-evenly;
+    }
+}
+@media  (max-width: 1024px){
+    .navbar-navigation a{
+        font-size: 13px;
+        padding: 0 3px;
+    }
+    .navbar-navigation button{
+        width: 130px;
+        height: 42px;
+    }
+    .hero-title h1{
+        font-size: 90px;
+        line-height: 110%;
+    }
+    .hero-title h5{
+        margin: 15px 0 45px 0;
+    }
+    .hero-title button{
+        width: 295px;
+        font-size: 16px;
+    }
+    .team-block img{
+        width: 111px;
+    }
+    .project{
+        width: 35%;
+    }
+    .project h1{
+        font-size: 30px;
+    }
+    .project button{
+        margin-right: 0;
+    }
+}
+@media  (max-width: 992px){
+    .navbar-navigation a{
+        font-size: 12px;
+    }
+    .navbar-navigation button{
+        font-size: 12px;
+    }
+    .team-block img{
+        width: 100%;
+    }
+
+}
+@media  (max-width: 768px){
+    .navbar-navigation{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .navigation{
+        left: 68%;
+    }
+
+    .hero-title h1{
+        font-size: 60px;
+    }
+    .block-content p{
+        font-size: 13px;
+        line-height: 130%;
+    }
+    .work{
+        justify-content: center;
+    }
+    .service{
+        justify-content: center;
+    }
+    .process-title{
+        font-size: 20px;
+    }
+    .request{
+        flex-wrap: wrap;
+    }
+    .request-block{
+        margin-top: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .footer-service{
+        display: none;
+    }
+    .info{
+        display: none;
+    }
+    .project{
+        width: 100%;
+    }
+}
+@media  (max-width: 576px){
+    .navigation{
+        left: 57%;
+    }
+    .hero-title h1{
+        font-size: 45px;
+    }
+    .hero-title h5{
+        font-size: 15px;
+    }
+    .hero-title button{
+        width: 230px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .tabs-img{
+        height: 100%;
+    }
+    .hero-title p{
+        font-size: 10px;
+    }
+    .service-btn button{
+        width: 260px;
+        height: 65px;
+        font-size: 21px;
+    }
+    .process-right-block{
+        height: 515px;
+        width: 100%;
+    }
+    .process-left-block{
+        width: 100%;
+    }
+    .block-laboratory{
+        width: 455px;
+    }
+    .block-laboratory-head{
+        width: 456px;
+    }
+    .process-line{
+        width: 366px;
+    }
+    .process-liner{
+        width: 366px;
+    }
+    .implementation{
+        height: 500px;
+        width: 100%;
+    }
+    .studio-subtitle p{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .main-tabs{
+        flex-direction: column;
+    }
+    .main-title{
+        font-size: 24px;
+    }
+    .team{
+        display: flex !important;
+    }
+    .team-block{
+        width: 300px;
+    }
+    .tabs{
+        width: 90%;
+    }
+    .request-block{
+        width: 90%;
+    }
+    .name{
+        width: 45%;
+    }
+    .question{
+        width: 94%;
+        height: 80px;
+    }
+    .request-block button{
+        width: 80%;
+    }
+}
+
+@media  (max-width: 451px){
+    .navigation{
+        left: 45%;
+    }
+    .hero{
+        flex-wrap: wrap;
+    }
+    .hero-title{
+        font-size: 35px;
+    }
+    .block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block-content{
+        width: 40%;
+        margin: 10px;
+    }
+    .work-block{
+        width: 350px;
+        height: 234px;
+    }
+    .work-block img{
+        width: 100%;
+    }
+    .process-in-block p{
+        font-size: 12px;
+    }
+    .block-laboratory{
+        width: 342px;
+    }
+    .block-laboratory-head{
+        width: 345px;
+    }
+    .process-line{
+        width: 252px;
+    }
+    .process-liner{
+        width: 252px;
+    }
+    .testing-rec{
+        width: 342px;
+    }
+    .testing-rectangle div{
+        width: 35px;
+    }
+    .test-line{
+        width: 328px;
+    }
+    .studio{
+        flex-direction: column;
+    }
+
+    .studio img{
+        width: 140px;
+    }
+    .team{
+        display: flex !important;
+    }
+    .team-block{
+        width: 300px !important;
+    }
+
+    .project h1{
+        font-size: 20px;
+    }
+    .project button{
+        font-size: 16px;
+        width: 185px;
+        height: 40px;
+    }
+    .project h2{
+        font-size: 13px;
+    }
+    .project a{
+        font-size: 12px;
+    }
+    .main-title{
+        font-size: 22px;
+    }
+}
+@media  (max-width: 400px){
+    .block-content{
+        width: 40%;
+    }
+    .service-block-head{
+        width: 360px;
+    }
+    .first-rectangle{
+        width: 15.81px;
+        height: 7.81px;
+    }
+    .left-rectangle{
+        width: 5.5px;
+        height: 62.3px;
+    }
+    .right-group-rec div{
+        height: 11.71px;
+    }
+    .right-first-rec{
+        width: 145.51px;
+    }
+    .right-second-rec{
+        width: 212.55px;
+    }
+    .right-third-rec{
+        width: 196.74px;
+    }
+    .right-fourth-rec{
+        width: 246.22px;
+    }
+    .block-laboratory{
+        width: 300px;
+    }
+    .block-laboratory-head{
+        width: 303px;
+    }
+    .process-line{
+        right: 23px;
+    }
+    .process-liner{
+        right: 23px;
+    }
+    .top-arrow{
+        left: 24px;
+    }
+    .bottom-arrow{
+        left: 24px;
+    }
+    .testing-rec{
+        width: 300px;
+    }
+    .test-line{
+        width: 287px;
+    }
+    .testing-rectangle div{
+        width: 22.74px;
+    }
+
+    .request p{
+        font-size: 9px;
+        line-height: 15px;
+    }
+}
+@media  (max-width: 380px){
+    .navigation{
+        left: 35%;
+    }
+    .block-content{
+        width: 45%;
+    }
+    .block-content img{
+        width: 30px;
+    }
+    .process-in-block h1{
+        font-size: 29px;
+    }
+    .process-title{
+        font-size: 17px;
+    }
+    .block-laboratory{
+        width: 290px;
+    }
+    .block-laboratory-head{
+        width: 292px;
+    }
+    .testing-rec{
+        width: 290px;
+    }
+    .test-line{
+        width: 280px;
+        right: 13px;
+    }
+    .work-block{
+        width: 335px;
+        height: 221px;
+    }
+    .service-block-head{
+        width: 335px;
+    }
+
+
+    .tabs-img img{
+        margin: 3px;
+        width: 60px;
+    }
+}
+@media  (max-width: 376px){
+    .navigation{
+        left: 35%;
+    }
+    .process-in-block p{
+        font-size: 12px;
+    }
+    .process-left-block{
+        height: 486px;
+    }
+    .block-content{
+        margin: 8px;
+    }
+}
+@media  (max-width: 320px){
+    .navigation{
+        left: 23%;
+    }
+    .hero-title h1{
+        font-size: 39px;
+    }
+    .block-content{
+        margin: 5px;
+        width: 134px;
+    }
+    .work-block{
+        height: 184px;
+    }
+    .service-block-head{
+        width: 280px;
+    }
+    .service-block p{
+        font-size: 12px;
+    }
+    .service-block h1{
+        font-size: 17px;
+    }
+    .service-block h2{
+        font-size: 14px;
+    }
+    .process-in-block p{
+        font-size: 9px;
+    }
+    .process-in-block{
+        left: 15px;
+    }
+    .block-laboratory{
+        width: 254px;
+    }
+    .block-laboratory-head{
+        width: 256px;
+    }
+    .process-line{
+        width: 211px;
+        right: 20px;
+    }
+    .process-liner{
+        width: 211px;
+        right: 20px;
+    }
+    .testing-rec{
+        width: 254px;
+    }
+    .test-line{
+        width: 248px;
+        right: 5px;
+    }
+    .tabs-img img{
+        width: 44px;
+    }
+}

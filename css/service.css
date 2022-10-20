@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'montserrat',sans-serif;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.68);
+    padding: 15px 0;
+    z-index: 999;
+    backdrop-filter: blur(3px);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: 1s ani alternate;
+}
+@keyframes ani {
+    0%{
+        transform: translateY(-455px);
+    }
+    80%{
+        transform: scale(1.1) skew(-20deg);
+
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.navbar-navigation a {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 0 20px;
+    transition: .5s;
+}
+.navbar-navigation a:hover{
+    color: #FF001E;
+    border-bottom: 1.5px solid #FF001E;
+}
+.navbar-navigation a:focus{
+    color: #FF001E;
+    border-bottom: 1.5px solid #FF001E;
+}
+.navbar-navigation button{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    width: 193px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.navbar-navigation button:hover {
+    background: #FF001E;
+    border: 2px solid #000;
+}
+.burger-menu {
+    height: 100%;
+    display: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 24px;
+    height: 3px;
+    background-color: #FF001E;
+    margin: 6px 0;
+    transition: 0.4s;
+    z-index: 1000;
+    position: relative;
+    border-radius: 5px  ;
+
+}
+
+.open .bar1 {
+    /*-webkit-transform: rotate(-45deg) translate(-9px, 6px);*/
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.open .bar2 {opacity: 0;}
+
+.open .bar3 {
+    /*-webkit-transform: rotate(45deg) translate(-8px, -8px);*/
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.open .navigation {
+    position: absolute;
+    width: 250px;
+    height: 800%;
+    overflow-y: auto;
+}
+
+.navigation{
+    width:0;
+    height: 1200px;
+    background-color: #222222;
+    overflow:hidden;
+    color:white;
+    padding-top:20px;
+    top:0;
+    left:0;
+    z-index:1;
+    position:fixed;
+    transition:0.8s;
+
+
+
+}
+
+.burger-menu .navigation a {
+    margin: 0 0 20px 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    display:block;
+    transition:0.3s;
+}
+.burger-menu .navigation h1{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.burger-menu .navigation a:hover{
+    color: #FF001E;
+    border-bottom: #FF001E;
+}
+
+
+#button1{
+    font-size:40px;
+}
+
+
+.navigation .endnav {
+    top:0;
+    right:25px;
+    margin-left:30px;
+    font-size:36px;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+#hero{
+    background: url("../img/service-hero.png") no-repeat center/cover;
+    min-height: 77vh;
+}
+.hero{
+    padding-top: 100px;
+    animation: 1s anim alternate;
+}
+@keyframes anim {
+    0%{
+        transform: translateX(-1000px);
+    }
+    80%{
+        transform: skew(-20deg);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.hero h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.hero button{
+    height: 50px;
+    width: 300px;
+    background: #FF001E;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin:10px 10px 30px 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.hero button:hover{
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    scale: 1.1;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+.hero p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+.hero-icons{
+    margin: 0 10px;
+    color: #FF001E;
+    font-size: 30px;
+
+}
+.hero-icon{
+    transition: .4s;
+}
+
+.hero-icons :hover{
+    transform: scale(1.2);
+    color: white;
+}
+
+/*...service...*/
+#service{
+    background: #222222;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.service-block{
+    width: 400px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: 10px;
+}
+.service-block-head{
+    width: 400px;
+    height: 98px;
+    background: #000000;
+    border-radius: 19px;
+    box-shadow: 0 2px 12px black;
+    margin-bottom: 20px;
+}
+.service-dots{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service-dots-dot{
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.service-block-head img{
+    padding: 10px 20px;
+}
+.service-block-title{
+    display: flex;
+    justify-content: space-around;
+}
+.service-block-title h2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.service-block h1{
+    margin-left: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FF001E;
+}
+.service-block p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 10px 0 34px 32px;
+}
+.service-btn{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.service-btn button{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 413px;
+    height: 80px;
+    border: 2px solid #F5F7F9;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    transition: .4s;
+}
+.service-btn button:hover{
+    scale: 1.1;
+    color: #FF001E;
+    border: 2px solid #FF001E;
+
+}
+/*...service...*/
+
+
+/*...team...*/
+#teams{
+    background: #222222;
+}
+.main-title{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.request{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.request p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.request-block{
+    position: relative;
+    width: 642px;
+    height: 400px;
+    background: #9D0013;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.name{
+    color: gray;
+    width: 280px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+.question{
+    width: 582px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+.request-block button{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 582px;
+    height: 40px;
+    background: #222222;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.request-block button:hover{
+    scale: 1.1;
+    background: transparent;
+    color: #222222;
+    backdrop-filter: blur(4px);
+}
+/*...team...*/
+
+
+
+#footer{
+    background: #F5F7F9;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 0 100px 0;
+}
+.project{
+    position: relative;
+    width: 50%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.project h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+}
+.project button{
+    font-weight: 600;
+    font-size: 24px;
+    color: #F5F7F9;
+    width: 294px;
+    height: 59px;
+    cursor: pointer;
+    background: #FF001E;
+    border-radius: 5px;
+    margin: 30px 450px 30px 0;
+    transition: .4s;
+}
+.project button:hover{
+    background: transparent;
+    color: #222222;
+    border: 2px solid #000;
+    scale: 1.09;
+}
+.menu{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.menu a{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    transition: .4s;
+}
+.footer-service{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-service a{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    transition: .4s;
+}
+.menu a:hover{
+    color: #FF001E;
+    border-bottom: 1.5px solid #FF001E;
+}
+.footer-service a:hover{
+    color: #FF001E;
+    border-bottom: 1.5px solid #FF001E;
+}
